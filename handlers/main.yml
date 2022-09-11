@@ -1,0 +1,4 @@
+---
+- name: reload udev
+  command:
+    cmd: "udevadm control --reload"

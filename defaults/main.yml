@@ -1,0 +1,5 @@
+---
+# A list of lines in a udev rule, without the 'ACTION=="add"' match
+udev_rules: []
+# - |
+#   SUBSYSTEM=="usb", ATTR{idVendor}=="0bda", ATTR{idProduct}=="2838", SYMLINK+="rtlsdr"
