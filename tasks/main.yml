@@ -1,7 +1,7 @@
 ---
 - name: Ensure the desired udev rules are in place
-  template:
+  ansible.builtin.template:
     src: udev.rules.j2
     dest: /etc/udev/rules.d/99-ansible-managed.rules
     mode: 0644
-  notify: reload udev
+  notify: Reload udev
